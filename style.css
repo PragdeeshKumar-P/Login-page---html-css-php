@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C3E2C2;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #EAECCC;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cont h1{
+    color: #CD8D7A;
+    font-size: 45px;
+    font-weight: 200;
+}
+
+.cont form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont form input{
+    width: 400px;
+    height: 40px;
+    padding: 0px 10px;
+    outline: none;
+    background-color: #f0d7cf;
+    color: #CD8D7A;
+    border-radius: 5px;
+    border: 1px solid #CD8D7A;
+    font-size: 16px;
+}
+
+.cont form input::placeholder{
+    color: #CD8D7A;
+}
+
+.cont form #submit{
+    background-color: #CD8D7A;
+    border: 1px solid #CD8D7A;
+    color: #EAECCC;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+}
+
+#message{
+    background-color: rgb(161, 241, 161);
+    border: 1px solid green;
+    color: green;
+    padding: 20px 40px;
+}
+
+.error{
+    background-color: rgb(243, 202, 202);
+    border: 1px solid rgb(243, 58, 58);
+    color: red;
+    padding: 20px 40px;
+}
+
+.cont form input[type=checkbox]{
+    width: 6px;
+    height: 6px;
+}
